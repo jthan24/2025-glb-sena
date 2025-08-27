@@ -1,11 +1,12 @@
 
 
-
-export AWS_ACCESS_KEY_ID=EXAMPLE
-export AWS_SECRET_ACCESS_KEY=EXAMPLE
+```bash
+export AWS_ACCESS_KEY_ID=example
+export AWS_SECRET_ACCESS_KEY=example
 export AWS_REGION=us-west-2
+```
 
-
+```terraform
 ingress {
     description = "all 8080 trafic"
     from_port   = 8080
@@ -23,3 +24,4 @@ ingress {
     cidr_blocks = ["0.0.0.0/0"]
     ipv6_cidr_blocks = ["::/0"]
   }
+```
