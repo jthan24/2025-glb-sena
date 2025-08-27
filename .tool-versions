@@ -1,0 +1,5 @@
+python 3.10.2
+azure-cli 2.34.1
+terraform 1.13.1
+terraform-docs 0.16.0
+awscli 2.4.27
